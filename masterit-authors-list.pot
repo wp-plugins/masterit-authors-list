@@ -1,0 +1,29 @@
+# Translation of the WordPress plugin MasterIT Authors List 1.0 by Alexey Balin.
+# Copyright (C) 2010 Alexey Balin
+# This file is distributed under the same license as the MasterIT Authors List package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MasterIT Authors List 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/masterit-authors-list\n"
+"POT-Creation-Date: 2010-09-16 20:22+0600\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mital.class.php:339
+msgid "Articles:"
+msgstr ""
+
+#: mital.class.php:340
+msgid "Comments:"
+msgstr ""
+
+msgid "Total Articles"
+msgstr ""
+

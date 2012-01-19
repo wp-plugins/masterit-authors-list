@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: masterit
 Donate link: http://www.masterit.ru/
-Tags: categories, tags, links, visibility
+Tags: authors, posts, comments, visibility
 Requires at least: 2.3
 Tested up to: 3.3.1
 Stable tag: 1.1.1
@@ -20,4 +20,5 @@ Original authors: Alexey Balin [http://www.masterit.ru/wp-plugin-authors-list/]
 
 == Frequently Asked Questions ==
 
-
+== Screenshots ==
+1. Authors list view

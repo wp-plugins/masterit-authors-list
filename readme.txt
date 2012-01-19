@@ -9,6 +9,8 @@ Stable tag: 1.1.1
 
 == Description ==
 
+Plugin for create sorted authors list in WordPress blog.
+
 Original authors: Alexey Balin [http://www.masterit.ru/wp-plugin-authors-list/]
 
 == Installation ==

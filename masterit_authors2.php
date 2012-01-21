@@ -62,7 +62,6 @@ Author URI: http://www.masterit.ru
 	add_action('unspammed_comment', array($MIT_al_plugin, 'delete_comment'));
 	add_action('unspam_comment', array($MIT_al_plugin, 'delete_comment'));
 	add_action('untrash_comment', array($MIT_al_plugin, 'delete_comment'));
-	add_action('wp_dashboard_setup', array($MIT_al_plugin, 'add_dashboard_widgets'));
 
 	add_shortcode( 'authors-list', 'print_autors_list' );
 

@@ -272,7 +272,6 @@ class masterit_authors_list {
 		$comment = get_comment($comment_id );
 
 		if( $comment->user_id ) {
-			$this->set_advertiser_account(-10, "user_login" );
 			$wpdb->query("UPDATE LOW_PRIORITY `".$wpdb->prefix."authors` SET comment_count = IF(comment_count > 1,comment_count - 1,0) WHERE user_id = $comment->user_id LIMIT 1");
 			wp_schedule_single_event( time()+10, 'recount_author_comments_cron', array($comment->user_id) );
 		}

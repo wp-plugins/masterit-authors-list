@@ -180,7 +180,6 @@ class masterit_authors_list {
 		global $wpdb, $current_user;
 		//just add 1 post to post_count
 		if( $comment->user_id  ) {
-			$this->set_advertiser_account(10, "add_comment" );
 			$wpdb->get_results("UPDATE LOW_PRIORITY `".$wpdb->prefix."authors` SET comment_count = comment_count + 1 WHERE user_id = ".$comment->user_id);
 			$wpdb->print_error();
 			wp_schedule_single_event( time()+10, 'recount_author_comments_cron', array($comment->user_id) );
